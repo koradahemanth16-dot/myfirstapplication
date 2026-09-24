@@ -2,4 +2,4 @@ FROM nginx
 MAINTAINER hemanth
 LABEL this is basic application
 EXPOSE 80
-COPY 
+COPY cinema.html /usr/share/nginx/html/
